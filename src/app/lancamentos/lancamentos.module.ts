@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { SharedModule } from './../shared/shared.module';
 import { LancamentosPesquisaComponent } from './lancamentos-pesquisa/lancamentos-pesquisa.component';
 import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-cadastro.component';
-import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
 
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
@@ -40,8 +39,7 @@ import { CurrencyMaskModule } from 'ng2-currency-mask';
   ],
   declarations: [
     LancamentosPesquisaComponent,
-    LancamentoCadastroComponent,
-    LancamentosGridComponent
+    LancamentoCadastroComponent
   ],
   exports: [
     LancamentoCadastroComponent,
